@@ -1,0 +1,22 @@
+<p>landing works!</p>
+
+<input type="text" [(ngModel)]="inputCardId" />
+
+<input type="number" [(ngModel)]="amt" />
+
+<button (click)="add()">Add</button>
+<button (click)="deduct()">Deduct</button>
+
+<div>
+  <div>
+    {{ cardId }}
+  </div>
+  {{ balance }}
+</div>
+
+<div>
+  <div>
+    {{ cardId2 }}
+  </div>
+  {{ balance2 }}
+</div>
